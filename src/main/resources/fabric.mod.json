@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "autoshield",
+  "version": "1.0.0",
+  "name": "Auto Shield Breaker",
+  "description": "Swaps to your axe to disable a blocking player's shield, then swaps back.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.autoshield.AutoShieldClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
